@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">V-Tag</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="action_search">CANJE DE PUNTOS</string>
+
+    <!--POINTS-->
+    <string name="loadNewPoints">Presentate en cualquiera de nuestras tiendas de servicio y ¡¡canjea tus puntos por productos!!</string>
+
+    <!--MAPS-->
+    <string name="title_activity_maps">Map</string>
+    <string name="btnMap">INFORMACIÓN</string>
+    <string name="btnReload">RECARGAR SALDO</string>
+    <string name="errorLocation">Can not get location</string>
+    <string name="title_activity_read_tag">ReadTagActivity</string>
+
+    <!--NFC-->
+    <string name="errornfc">NFC NOT AVAILABLE</string>
+    <string name="title_activity_reload">ReloadActivity</string>
+    <string name="title_activity_points">PointsActivity</string>
+    <string name="title_activity_m">Map</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_pre_reload">PreReloadActivity</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+    <string name="title_activity_auto_complete">AutoCompleteActivity</string>
+
+    <string name="autocomplete_hint">Ingresar nombre de Gasolinera Shell</string>
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="clear_text">Borrar texto</string>
+
+    <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+    Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample uses the Google Places Geo Data API for Android to provide autocomplete suggestions.
+            It shows how to use a custom Adapter to display suggestions in an AutocompleteTextView.
+            Once selected, details about a place are retrieved based on its Place id from the
+            Places Geo Data API.
+
+
+        ]]>
+    </string>
+    <string name="title_activity_prod_description">ProdDescription</string>
+</resources>
+
